@@ -1,13 +1,19 @@
 # Movie-Recommendation-System
 
 ## Introduction : 
-- This is a streamlit based Movie Recommendation System project.
+- It is a content based recommender system with Heroku deployment.
+- This system uses item metadata, such as genre, director, description, actors, etc. for movies, to make these recommendations.
+- The general idea behind these recommender systems is that if a person likes a particular item, he or she will also like an item that is similar to it.
+- Broad idea of NLP and Text-Vectorization using Bag of Words.
 
 
 ## Working
 
-- 
-  
+- Each movie consist of { MOVIE_ID , MOVIE_NAME , MOVIE_DESCRIPTION }
+- Use the idea of Text-Vectorization convert MOVIE_DESCRIPTION into vectors of matrix.
+- The similar recommendation for movies is made by calculating cosine distance between the vectors and fetching out 5 possible nearest vectors.
+
+ 
 ## Tools Used
 
 Python , Pandas , NumPy , Seaborn , Matplotlib , streamlit , NLP, Count Vectorizer,  wordcloud , urlextract , RegEx , pickle , collections , Heroku , requests .
@@ -28,6 +34,8 @@ Live Project Link : https://movie-recommender-system-101.herokuapp.com/
 - On large scale it can be used on fintech websites to give insights to potential users like on Meta : feeds recommender system and much more.
 
 ## Video
-https://user-images.githubusercontent.com/83591758/139529208-a7502e57-7af5-4fa5-aa7d-c1cf478da29c.mp4
+https://user-images.githubusercontent.com/83591758/139529773-c92ca204-d19c-4dee-9c8b-ccd77b9ff341.mp4
+
+
 
 
